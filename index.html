@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <!--meta name="viewport" content="width=device-width, initial-scale=1"/-->
+    <title>Tetris berlandbor ❤️</title>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'/>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id="div">
+
+    <h1 class="tetris">TETRIS</h1>
+    <p class="by">berlandbor ❤️</p>
+
+    <canvas id="maincanvas" class="maincanvas" width="240" height="400"></canvas>
+
+ 
+    <canvas id="subcanvas" class="subcanvas" width="96" height="96"></canvas>
+    <label class="labelscore">Score:</label>
+    <label class="score" id="score">0</label>
+    <label class="labellevel">Level:</label>
+    <label class="level" id="level">1</label>
+    <label class="next">Next piece</label>
+    <button class="left" id="left">⬅️</button>
+    <button class="right" id="right">➡️</button>
+    <button class="down" id="down">⬇️</button>
+    <button class="rotate" id="rotate">↪️</button>
+    <button class="rotatealt" id="rotatealt">↩️</button>
+  <footer>
+  <button id="update" onclick="обновитьСтраницу()">🔃</button>
+  </footer>
+    <p></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
